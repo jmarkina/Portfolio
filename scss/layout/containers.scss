@@ -1,0 +1,105 @@
+
+#portfolio {
+	// @include clearfix;
+	width: 100%;
+	height: auto;
+	//border-top: 1px solid $lipstick;
+	//border-bottom: 1px solid $lipstick;
+	@extend %centered;
+	margin-top: 8%;
+}
+.project-wrap {
+	@extend %dv-centered;
+	display: inline-block;
+	width: 40%;
+	padding: 2% 0;
+}
+.style-project {
+	background-image: url(#{$path-img}/style.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 300px;
+	width: 300px;	
+}
+
+.chat-project {
+	background-image: url(#{$path-img}/chat.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	height: 300px;
+	width: 300px;
+}
+#testimonials {
+	text-align: center;
+	background: url(#{$path-img}/back.png);
+}
+.media-photo {
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/ava1.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 32%;
+    background-position-x: 38%;
+	border-radius: 50%;
+	vertical-align: top;
+	display: inline-block;
+}
+.ava {
+	background-image: url(../img/ava2.png);
+	background-size: contain;
+  	background-color: #fffaf4;
+  	border: 1px solid black;
+  	box-sizing: border-box;
+  	background-position-y: 55%;
+}
+.reference {	//Don't like this solution
+	padding: 40px;
+}
+.ref-text {
+	padding: 0;
+  	margin: 0;
+  	line-height: 1.5;
+}
+.text-muted {
+	margin-bottom: 0;
+  	color: #82888a;
+}
+.speech-bubble {
+  background-color: #fff;
+  width: 330px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 25px;
+  position: relative;
+  text-align: left;
+  line-height: 1.7;
+  padding: 15px;
+  display: inline-block;
+}
+
+.speech-bubble:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  top: 15px;
+  right: auto;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right-color: black;
+}
+
+.speech-bubble:after {
+ content: "";
+  display: inline-block;
+  position: absolute;
+  left: -9px;
+  top: 16px;
+  right: auto;
+  border: 9px solid transparent;
+  border-left: 0;
+  border-right-color: #fff;
+}

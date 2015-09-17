@@ -1,0 +1,21 @@
+
+// @mixin clearfix {
+//   display: inline-block;
+//   &:after {
+//     content: ".";
+//     display: block;
+//     height: 0;
+//     clear: both;
+//     visibility: hidden;
+//   }
+//   * html & { height: 1px }
+// }
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin media-photo {
+	
+}

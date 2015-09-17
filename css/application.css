@@ -1,0 +1,155 @@
+html {
+  background-color: #fff;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: medium;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  max-width: 2000px; }
+
+a:link {
+  color: #213642;
+  text-decoration: none;
+  cursor: pointer; }
+
+ul li {
+  list-style-type: none; }
+
+#portfolio, .intro, nav, li {
+  text-align: center; }
+
+body, .project-wrap {
+  margin: 0 auto; }
+
+#portfolio {
+  width: 100%;
+  height: auto;
+  margin-top: 8%; }
+
+.project-wrap {
+  display: inline-block;
+  width: 40%;
+  padding: 2% 0; }
+
+.style-project {
+  background-image: url(../img/style.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 300px;
+  width: 300px; }
+
+.chat-project {
+  background-image: url(../img/chat.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 300px;
+  width: 300px; }
+
+#testimonials {
+  text-align: center;
+  background: url(../img/back.png); }
+
+.media-photo {
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/ava1.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 32%;
+  background-position-x: 38%;
+  border-radius: 50%;
+  vertical-align: top;
+  display: inline-block; }
+
+.ava {
+  background-image: url(../img/ava2.png);
+  background-size: contain;
+  background-color: #fffaf4;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background-position-y: 55%; }
+
+.reference {
+  padding: 40px; }
+
+.ref-text {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5; }
+
+.text-muted {
+  margin-bottom: 0;
+  color: #82888a; }
+
+.speech-bubble {
+  background-color: #fff;
+  width: 330px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 25px;
+  position: relative;
+  text-align: left;
+  line-height: 1.7;
+  padding: 15px;
+  display: inline-block; }
+
+.speech-bubble:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  top: 15px;
+  right: auto;
+  border: 10px solid transparent;
+  border-left: 0;
+  border-right-color: black; }
+
+.speech-bubble:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -9px;
+  top: 16px;
+  right: auto;
+  border: 9px solid transparent;
+  border-left: 0;
+  border-right-color: #fff; }
+
+.intro {
+  display: block; }
+
+header {
+  width: 100%;
+  margin-top: 60px; }
+  header h1 {
+    font-size: 1em; }
+  header h2 {
+    font-size: 1.2em; }
+
+nav {
+  margin-top: 30%; }
+
+ul {
+  padding-left: 0; }
+
+li {
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+  display: inline-block;
+  margin-top: 7px; }
+  li a {
+    line-height: 3; }
+  li:hover {
+    background-color: #f8eee6;
+    transition: background-color 300ms ease-out;
+    -webkit-transition: background-color 300ms ease-out; }
+
+/*# sourceMappingURL=application.css.map */

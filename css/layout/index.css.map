@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,GAAI;EACH,KAAK,EAAE,KAAK;;ACHb,MAAU;EACT,UAAU,EAAE,MAAM",
+"sources": ["../../scss/layout/header.scss","../../scss/layout/extends.scss"],
+"names": [],
+"file": "index.css"
+}

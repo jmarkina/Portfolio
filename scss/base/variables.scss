@@ -1,0 +1,62 @@
+// Descriptive color variables
+
+$white: #fff;
+$black: #000;
+$grey: #c4c1c1;
+$lipstick: #AB0554;
+$thepapagreen: #213642;
+$bluechill: #0A9299;
+$berry: #a00957;
+$vanilla: #f8eee6;
+
+// Functional color variables
+
+$color-border-light: lighten($grey, 35%);
+$color-border-dark: $grey;
+
+$color-link-default: $thepapagreen;
+$color-link-active : $thepapagreen;
+
+$color-link-visited: $berry;
+$color-link-hover: $thepapagreen;
+
+
+$color-shadow: rgba($black,.8);
+$color-body: $white;
+
+//Font stacks
+
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+$stack-helvetica: "Helvetica Neue", $stack-sans-serif;
+$stack-font-code: "source-code-pro", "Consolas";
+
+
+//Font sizes 
+
+$default-font-size: medium; 
+$h1-font-size: xx-large;
+$h2-font-size: large;
+$h3-font-size: smaller;
+
+//padding for blocks 
+
+$padding: 0 2%;
+
+//asset paths
+
+$path-img: '../img';
+
+//links 
+
+//border-raduis
+
+$br: 5px;
+
+//Button dimensions 
+
+$button-width-large: 200px;
+$button-width-medium: 150px;
+$button-width-small: 100px;
+$button-height: 50px;
+
+

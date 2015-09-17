@@ -1,0 +1,56 @@
+
+// .header-photo {
+// 	background: url(#{$path-img}/photo.jpg) no-repeat;
+// 	background-size: cover;
+// 	background-position-x: -5px;
+// 	border-radius: 50%;
+// 	width: 300px;
+// 	height: 300px;
+// 	float: left;	
+// }
+.intro {
+	//padding: $padding;
+	//width: 49%;
+	@extend %centered;
+	display: block;
+}
+
+header {
+	//height: 500px;
+	width: 100%;
+	margin-top: 60px;
+	& h1 {
+		font-size: 1em;
+	} 
+	& h2 {
+		font-size: 1.2em;
+	}
+}
+
+
+nav {
+	@extend %centered;
+	margin-top: 30%;
+}
+ul {
+	padding-left:0;
+}
+li {
+	@extend %centered;
+	@include button($button-width-medium);
+	display: inline-block;
+	margin-top: 7px;
+	& a {
+		line-height: 3;
+	}
+	&:hover {
+		background-color: $vanilla;
+		transition: background-color 300ms ease-out;
+		-webkit-transition: background-color 300ms ease-out;
+	}
+}
+
+    
+    
+    
+   
