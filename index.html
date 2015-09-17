@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" type="text/css" href="css/application.css" media="screen">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>-->
   </head>
   <body>
     <header>
@@ -16,18 +19,17 @@
         <h2>Front-end developer, UX auditor living in San Francisco, CA</h2>
       </div>
       <nav>
-        <span>Scroll down or jump to</span>
-        <ul>
-        <li><a href="#about">More about me</a></li>
-        <li><a href="#portfolio">Recent projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a>Download CV</a></li>
-        </ul>
+        <!-- <a class="nav-link" data-scroll="about">More about me</a> -->
+        <a class="nav-link" data-scroll="projects">Recent projects</a>
+        <a class="nav-link" data-scroll="ux">UX audit</a>
+        <a class="nav-link" data-scroll="testimonials">Testimonials</a>
+        <a class="nav-link" data-scroll="contact">Contact</a>
+        <a>Download CV</a>
+
       </nav>
     </header>
-
-    <section id="portfolio">
+    <div class="wrapper">
+    <section id="projects" data-anchor="projects">
     <h2>Recent projects</h2>
       <div class="project-wrap">
         <a href="jmarkina.github.io/style">
@@ -40,12 +42,12 @@
         </a>
       </div>
     </section>
-    <section id="ux">
+    <section id="ux" data-anchor="ux">
       <div class="ux-analysis"></div>
     </section>
 
 
-    <section id="testimonials">
+    <section id="testimonials" data-anchor="testimonials">
     <h2>Testimonials</h2>
     
     <div class="reference project-wrap">
@@ -68,10 +70,10 @@
     
     </section>
 
-    <section class="contacts">
+    <section class="contact" data-anchor="contact">
     <h2>If you wish to contact me and say hello or give me feedback you can reach me at jmarkina@gmail.com</h2>
     </section>
-
+    </div> <!--end of wrapper-->
     <footer class="website-info">    
     </footer>
   

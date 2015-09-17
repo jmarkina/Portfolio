@@ -1,57 +1,18 @@
 /*
-Error: Undefined mixin 'button'.
-        on line 40 of scss/layout/header.scss, in `button'
-        from line 40 of scss/layout/header.scss
+Sass::SyntaxError: ".intro" failed to @extend "%centered".
+The selector "%centered" was not found.
+Use "@extend %centered !optional" if the extend should be able to fail.
 
-35: ul {
-36: 	padding-left:0;
-37: }
-38: li {
-39: 	@extend %centered;
-40: 	@include button($button-width-medium);
-41: 	display: inline-block;
-42: 	margin-top: 7px;
-43: 	& a {
-44: 		line-height: 3;
-45: 	}
 
 Backtrace:
-scss/layout/header.scss:40:in `button'
-scss/layout/header.scss:40
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:98:in `block in with_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:98:in `with_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+scss/layout/header.scss:14
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/extend.rb:61:in `block in check_extends_fired!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/util/subset_map.rb:106:in `block in each_value'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/util/subset_map.rb:106:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/util/subset_map.rb:106:in `each_value'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/extend.rb:50:in `check_extends_fired!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/visitors/extend.rb:16:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/root_node.rb:39:in `css_tree'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
@@ -71,4 +32,4 @@ scss/layout/header.scss:40
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'button'.\A         on line 40 of scss/layout/header.scss, in `button'\A         from line 40 of scss/layout/header.scss\A \A 35: ul {\A 36: 	padding-left:0;\A 37: }\A 38: li {\A 39: 	@extend %centered;\A 40: 	@include button($button-width-medium);\A 41: 	display: inline-block;\A 42: 	margin-top: 7px;\A 43: 	& a {\A 44: 		line-height: 3;\A 45: 	}"; }
+  content: "Sass::SyntaxError: \".intro\" failed to @extend \"%centered\".\A The selector \"%centered\" was not found.\A Use \"@extend %centered !optional\" if the extend should be able to fail.\A "; }

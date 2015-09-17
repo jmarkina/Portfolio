@@ -1,4 +1,6 @@
-$('nav a').on('click', function() {
+$(document).ready(function() {
+
+    $('nav a').on('click', function() {
 
     var scrollAnchor = $(this).attr('data-scroll'),
         scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
@@ -9,8 +11,8 @@ $('nav a').on('click', function() {
 
     return false;
 
-})
-
+    })
+});
 
 $(window).scroll(function() {
     var windscroll = $(window).scrollTop();

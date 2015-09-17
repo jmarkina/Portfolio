@@ -27,28 +27,30 @@ header {
 	}
 }
 
-
 nav {
 	@extend %centered;
-	margin-top: 30%;
-}
-ul {
-	padding-left:0;
-}
-li {
-	@extend %centered;
-	@include button($button-width-medium);
-	display: inline-block;
-	margin-top: 7px;
+	// margin-top: 30%;
 	& a {
-		line-height: 3;
-	}
-	&:hover {
-		background-color: $vanilla;
-		transition: background-color 300ms ease-out;
-		-webkit-transition: background-color 300ms ease-out;
+		
 	}
 }
+// ul {
+// 	padding-left:0;
+// }
+// li {
+// 	@extend %centered;
+// 	@include button($button-width-medium);
+// 	display: inline-block;
+// 	margin-top: 7px;
+// 	& a {
+// 		line-height: 3;
+// 	}
+// 	&:hover {
+// 		background-color: $vanilla;
+// 		transition: background-color 300ms ease-out;
+// 		-webkit-transition: background-color 300ms ease-out;
+// 	}
+// }
 
     
     
