@@ -13,6 +13,11 @@
 	display: inline-block;
 	width: 40%;
 	padding: 2% 0;
+	& :hover {
+		background-color: #000;
+		opacity: 0.7;
+		content: 
+	}
 }
 .style-project {
 	background-image: url(#{$path-img}/style.jpg);
