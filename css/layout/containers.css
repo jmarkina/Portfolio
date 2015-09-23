@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$path-img".
-        on line 23 of scss/layout/containers.scss
+        on line 47 of scss/layout/containers.scss
 
-18: 		opacity: 0.5;
-19: 		content: "Click to go to the website";
-20: 	}
-21: }
-22: .style-project {
-23: 	background-image: url(#{$path-img}/style.jpg);
-24: 	background-size: 100% 100%;
-25: 	background-repeat: no-repeat;
-26: 	display: inline-block;
-27: 	height: 300px;
-28: 	width: 300px;	
+42: 	    margin: 0 auto;
+43:     }
+44: }
+45: 
+46: .style-project {
+47: 	background-image: url(#{$path-img}/style.jpg);
+48: 	background-size: 100% 100%;
+49: 	background-repeat: no-repeat;
+50: 	display: inline-block;
+51: 	height: 300px;
+52: 	width: 300px;	
 
 Backtrace:
-scss/layout/containers.scss:23
+scss/layout/containers.scss:47
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/script/tree/string_interpolation.rb:83:in `_perform'
@@ -69,4 +69,4 @@ scss/layout/containers.scss:23
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$path-img\".\A         on line 23 of scss/layout/containers.scss\A \A 18: 		opacity: 0.5;\A 19: 		content: \"Click to go to the website\";\A 20: 	}\A 21: }\A 22: .style-project {\A 23: 	background-image: url(#{$path-img}/style.jpg);\A 24: 	background-size: 100% 100%;\A 25: 	background-repeat: no-repeat;\A 26: 	display: inline-block;\A 27: 	height: 300px;\A 28: 	width: 300px;	"; }
+  content: "Error: Undefined variable: \"$path-img\".\A         on line 47 of scss/layout/containers.scss\A \A 42: 	    margin: 0 auto;\A 43:     }\A 44: }\A 45: \A 46: .style-project {\A 47: 	background-image: url(#{$path-img}/style.jpg);\A 48: 	background-size: 100% 100%;\A 49: 	background-repeat: no-repeat;\A 50: 	display: inline-block;\A 51: 	height: 300px;\A 52: 	width: 300px;	"; }

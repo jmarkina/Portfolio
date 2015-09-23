@@ -37,11 +37,33 @@ body, .project-wrap {
   display: inline-block;
   width: 40%;
   padding: 2% 0; }
-  .project-wrap :hover {
-    /*TODO: overlay with more info about the project*/
-    background-color: #000;
-    opacity: 0.5;
-    content: "Click to go to the website"; }
+  .project-wrap:hover .overlay {
+    /*TODO: make hover work only on project image area*/
+    opacity: 1; }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  opacity: 0;
+  padding: 100% 0 0 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  transition: opacity .25s ease; }
+
+.overlay-content {
+  width: 300px;
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 25%; }
+  .overlay-content a {
+    display: block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 0;
+    width: 50%;
+    border-radius: 4px;
+    margin: 0 auto; }
 
 .style-project {
   background-image: url(../img/style.jpg);
