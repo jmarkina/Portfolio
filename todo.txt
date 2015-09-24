@@ -1,0 +1,12 @@
+todo
+1.learn more page with screenshots for different devices and description
+2. navigation style 
+3.change testimonials section background
+4.font
+5.font sizes 
+6.header background
+7.html form which sends email to gmail
+8.ux section. Make instacart teardown
+9.responsive check
+10.sass format
+
